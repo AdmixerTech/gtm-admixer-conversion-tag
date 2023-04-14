@@ -14,4 +14,4 @@ This is the GTM Conversion ID, which can be found in the Admixer Tag manager set
 ### Price
 Conversion cost for every sent conversion. Conversion cost is used further in Admixer for performance reporting.
 ### Data
-This field is reserved for additional parameters of conversions. If the field is empty - wouldn't be processed
+This field is reserved for additional parameters of conversions. If the field is empty - wouldn't be processed.
