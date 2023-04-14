@@ -13,7 +13,7 @@
 # limitations under the License.
 
 homepage: "https://admixer.com/"
-documentation: "https://github.com/AdmixerTech/gtm-facebook-capi-tag/"
+documentation: "https://github.com/AdmixerTech/gtm-admixer-conversion-tag#readme"
 versions:
   - sha: 8d119657c8085886fe9d377134b9636d2d05104d
     changeNotes: Initial Version
