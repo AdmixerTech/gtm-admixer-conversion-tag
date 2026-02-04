@@ -39,6 +39,13 @@ ___TEMPLATE_PARAMETERS___
     "alwaysInSummary": true
   },
   {
+    "type": "TEXT",
+    "name": "amUid",
+    "displayName": "Admixer User ID",
+    "simpleValueType": true,
+    "alwaysInSummary": true
+  },
+  {
     "type": "SELECT",
     "name": "typeConv",
     "displayName": "Conversion Type",
@@ -112,6 +119,7 @@ const log = require('logToConsole');
 
 //getting data from template to var
 const amRid = data.amRid;
+const amUid = data.amUid;
 const typeConv = data.typeConv;
 const pageUrl = data.adPageUrl;
 const adTrigger = data.adTrigger;
@@ -124,6 +132,7 @@ const dataInput = data.dataInput;
 
 let url = endpoint  + 
       'am-rid=' + encodeUriComponent(amRid) + 
+      '&am-uid=' + encodeUriComponent(amUid) + 
       '&type=' + encodeUriComponent(typeConv) + 
       '&pageUrl=' + encodeUriComponent(pageUrl) + 
       '&trigger=' + encodeUriComponent(adTrigger) + 
